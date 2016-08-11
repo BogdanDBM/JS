@@ -1,0 +1,60 @@
+h1 {
+  text-align: right;
+  color: orange;
+}
+h2 {
+  font-weight: bold;
+  font-size: 30px;
+  
+}
+p:first-letter {
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+}
+em {
+   background-color: green; 
+  color: white;
+  font-weight: bold;
+}
+
+#allotment.plants-list h2 {
+  color: orange;
+}
+#allotment.plants-list ul li,  #warehouse.plants-list ul li{
+  font-weight: bold;
+ }
+
+#allotment.plants-list .fruits-list li {
+  font-weight: normal;
+  color: grey;
+ }
+#allotment.plants-list .vegetables-list li,
+#warehouse.plants-list .vegetables-list li
+{
+  font-weight: normal;
+  color: red;
+ }
+
+.plants-list h2{
+  color: blue;
+}
+
+#warehouse.plants-list .fruits-list li {
+  color: green;
+}
+/* table */
+.students-table thead td {
+  text-align: center;
+  font-weight: bold;
+}
+.students-table tbody td{
+  color: orange;
+}
+
+
+.students-table tbody td:nth-child(n+2) {
+  text-align: center;
+  color: white;
+  background-color: green;
+}
