@@ -41,6 +41,7 @@ em {
 }
 
 #warehouse.plants-list .fruits-list li {
+  font-weight: normal;
   color: green;
 }
 /* table */
@@ -58,3 +59,4 @@ em {
   color: white;
   background-color: green;
 }
+
