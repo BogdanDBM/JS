@@ -1,0 +1,42 @@
+body{
+  margin: 0;
+  padding: 0;
+  
+}
+ul{
+  display: inline-block;
+  background-color: #e5e5e5;
+  padding: 0;
+  margin-top: 20px;
+  
+}
+li{
+  font-size: 12px;
+  color: #a30196;
+  float: left;
+  list-style-type: none;
+  padding: 10px;
+  box-sizing: border-box;
+  border-collapse: collapse;
+
+}
+li.peger {
+  
+  padding: 9px;
+  margin-left: 2px;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  }
+  
+  
+  li:hover.peger {
+    background-color: #a30196;
+    color: white;
+    cursor: pointer;
+  }
+
+li:hover{
+  color:white;
+  cursor: pointer;
+  
+}

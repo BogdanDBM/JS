@@ -1,0 +1,41 @@
+
+ body{
+ 
+  margin: 0px auto;
+  box-sizing: border-box; 
+}
+li{
+  -display: linear-block;
+  
+font-family: Economica;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 20px;
+  text-transform: uppercase;
+  float: left;
+ 
+
+}
+li:first-child{
+  margin-left:20%;
+}
+li:last-child{
+
+  float: right;
+  -margin-right: 1%;
+}
+
+ul{
+  margin-top: 0;
+  padding: 0 auto;
+  position: absolute;
+  width: 100%;
+  color: white;
+  list-style-type: none;
+  background-color: #ab1dc5;
+}
+
+
+li:hover{
+  background-color: blue;
+}
