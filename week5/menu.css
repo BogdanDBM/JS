@@ -1,0 +1,82 @@
+
+body{
+font-family: impact;
+ text-transform: uppercase;
+  margin: 0;
+ padding: 0;
+ box-sizing:  border-box;
+width:  100wv;
+}
+
+ul.menu 
+{
+ margin: 0;
+  padding: 0;
+  display: inline-block;
+  color: white; 
+  background-color:  #1aa4ff;
+  -padding-left: 0;
+  width: 100%;
+  
+}
+
+.menu li{
+  
+ -position:  relative;
+  width:  70px;
+  line-height:  50px;
+ display:  inline-block;
+  padding: 0px 10px 0 20px;
+text-align: center;
+ float:  left;
+}
+
+  ul.menu2
+    {
+      display: inline-block;
+   display: none;
+   position: absolute;
+    padding-left: 0;
+ left: 0px;
+    
+    background-color:  #eeeeee;
+    width:100vw;  /* по всей ширине просмотра*/  
+   
+    }
+ 
+.menu2 li{
+  
+  left:  0px;
+  width:  70px;
+  -display:  block;
+  padding: 0 10px 0 10px; 
+  color: #a0a0a0;
+   text-transform: none;
+}
+/* HOVER */
+nav li:hover {
+  cursor: pointer;
+}   
+
+nav .menu li:hover {
+     background-color:  #eeeeee;
+     color: #a0a0a2;
+}
+.menu li:hover > ul.menu2  {
+   display: block;    
+  - visibility: visible;
+}
+ul .menu2 li:hover {
+     -visibility: visible;
+      - display: hide;
+      color: #101010;
+      text-decoration: underline;
+    }
+   
+  .test {
+  position: absolute;
+  margin-top: 20px;
+   
+   -      clear:  both;
+color: red;
+  }
