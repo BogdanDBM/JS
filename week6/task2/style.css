@@ -1,0 +1,146 @@
+
+body{
+  font-family: Trebuchet MS;
+box-sizing: border-box;
+  margin: 0;
+
+}
+.comment .bg{
+ width: 100%;
+ -height: 315px;
+
+ background-image: url(img/bg.jpg);
+  background-size: cover;
+padding-bottom: 50px;
+}
+.title_comment{
+ - display: inline-block;
+  padding-top: 58px;
+
+  }
+
+.title_comment h2{
+-  text-align: center;
+  text-transform: uppercase;
+  color: #3170a8;
+  font-size: 40pt;
+  margin: 0;
+}
+.title_comment h2 span{
+  color: #ee8129;
+}
+
+.profile_comment {
+  display: inline-block;
+ padding-top: 40px;
+  margin: 0 40px 60px 0; 
+  }
+.profile_pic{
+display: inline-block;
+  margin: 0;
+  padding: 0;
+background-image: url(img/girl.jpg);      background-color: #c7b39b;
+   width: 100px;
+  height: 100px;
+
+   background-size: cover;
+}
+
+.comment_block {
+  position: relative;
+  padding: 0px;
+  margin-left: 20px;
+ display: inline-block;
+ - margin-left: 30px;
+  width: 400px;
+  height: 100px;
+  
+  background-color: #fff;
+}
+.comment_block:before{
+  position: absolute;
+  left: -20px;
+  top: 35px;
+  content: "";
+  border: 10px solid transparent; /* Прозрачные границы */
+  border-right: 10px solid #fff; /* Добавляем треугольник */
+}
+
+
+.comment_block .name{
+height: 35px;
+  color: #3070a8;
+  font-style: italic;
+  margin: 0 10px;
+  padding: 0 0;
+ 
+ border-bottom: 2px dotted #666666; 
+}
+
+.comment_block .name .name_id {
+  display: inline-block;
+ padding-top: 10px;
+- margin-left: 15px;
+  float: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 200px;
+  white-space: nowrap;
+}
+  
+  .comment_block .name .name_id:before{
+    content: "-";
+  }
+.comment_block .name .status{
+  padding-top: 10px;
+   display: inline-block;
+  float: right;
+ - margin-right: 15px;
+  
+}
+p{
+  padding: 0;
+  margin: 0;
+}
+
+.description{
+  background-color: #fff;
+ position: absolute;
+  display: inline-block;
+color: red;
+-width: 360px;
+-height: 30px;
+  margin: 0;
+ padding: 10px;
+  overflow: hidden;
+    }
+
+  
+  
+  /*  second block*/
+  .profile_comment_second{
+ -   margin-top: 40px;
+   display:inline-block;
+   position: relative;
+  - margin-bottom: 60px;
+  }
+  .profile_comment_second .profile_pic{
+     background-image: url(img/man.jpg);    
+  }
+  
+  
+  .profile_comment_next{
+     margin-top: 20px;
+    display:inline-block;
+   position: relative;
+  }
+  
+  
+  .content{
+   max-width: 1090px;
+    margin: 0px auto;;
+  }
+  .comment .title_comment {
+    text-align: center;
+  }
+
