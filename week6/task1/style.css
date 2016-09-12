@@ -1,0 +1,247 @@
+body{
+ - display: inline-block;
+-max-width: 1024px;      
+ font-family: Trebuchet MS;
+- margin: 0 1em;
+ 
+}
+ 
+header h1 {
+    color: #41525c;
+  font-size: 30pt;
+ -text-align: center;
+}
+.first_block{
+  z-index: 100;
+  display: inline-block;
+  text-align: center;
+  width: 290px;
+  background-color: #fff;
+  border: 1px solid #e8eaec;
+  border-radius: 5px;
+}
+.title_block {
+  padding: 15px 0;
+  color: #fff;
+  background-color: #2bc2d5;
+  margin-bottom: 20px;
+}
+.name_block {
+  color: #3f4042;
+ margin-bottom: 20px;
+}
+.title_block, .name_block {
+  font-size: 18pt;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.list_block{
+  padding: 0 15px;;
+  margin: 15px 0;
+}
+
+.price_first{
+  color: #35495a;
+ display: inline-block;
+  position: relative;
+  left: 10px;
+text-aligne: ;  
+font-size: 59pt;
+  font-weight: 900;
+}
+
+.price_first:before{
+  position: absolute;
+  left: -.5em;
+  top: 10px;
+  
+content: "$";
+  font-size: 16pt;
+}
+.price_first:after{
+  position: relative;
+  bottom: -0.3em;
+  left: -.3em ;
+  content:"Monthly";
+  font-size: 14pt;
+}
+.first_block_list li{
+  overflow: hidden;
+ color: #888c94;
+  text-align: left;
+  list-style-type: none;
+  padding: 10px;
+  background-color: #edf5fd;
+  margin-bottom: 2px;
+  font-size: 13pt;
+  
+}
+
+.first_block_list li:before{
+content: url(http://s019.radikal.ru/i611/1609/99/2e948ab76453.png);
+  padding-left: 1.1em;
+  padding-right: 1.2em;
+}
+.first_block_list li:nth-child(even){
+background-color: #f5f5f6
+}
+
+.first_block .button{
+  font-size: 14pt;
+  text-transform: uppercase;
+  background-color: #3070a8;
+  box-shadow: 0px 3px #13426b;
+  margin: 25px 15px;
+}
+
+
+
+
+
+/*End First blick */
+
+/*style for block Price*/
+
+.Pricing {
+  z-index: 1000;
+ display: inline-block;
+ position: relative;
+ top: 0;
+  left: -10px;
+  text-align: center;
+-  margin: 50px auto;
+  background-color: #ee8129;
+  width: 326px;
+  padding-top: 31px;
+  padding-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #0874b2;
+}
+
+.header{
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 24pt;
+  font-weight: bold;
+  padding-bottom: 28px;
+  }
+.Price_menu {
+  background-color: white;
+  border-radius: 5px;
+  margin: 0 10px;
+  padding-bottom: 15px;
+}
+.name {
+  padding-top: 23px; 
+  font-size: 24pt;
+  color: #3f4042;
+  text-transform: uppercase;
+  padding-bottom: 22px;
+  }
+.price{
+  -padding: 0 auto;
+  position: relative;
+  font-size: 72px;
+  font-weight: 900;
+ }
+.price:before{
+ content: "$";
+  position: relative;
+  bottom: 32px;
+ - margin-left: 10px;
+  font-size: 26pt;
+ }
+.price:after{
+  position: relative; 
+  top: 10px;
+  left: -5px;
+  -margin: 0;
+  content: "Monthly";
+  font-size: 18pt;
+}
+ul {
+  padding: 0 20px;
+  margin-bottom: 50px;
+}
+.list li{
+  color: #888c94;
+  font-size: 13pt;
+  padding-left: 20px; 
+  font-wieght: 900;
+   line-height: 30px;
+   background-color: #edf5fd;
+  text-align: left;
+  list-style-type: none;
+  margin-bottom:4px;
+}
+  .list li:before{
+    content: url(http://s019.radikal.ru/i611/1609/99/2e948ab76453.png);
+    padding-right: 20px;
+  }
+.list li:nth-child(even){
+  background-color: #f5f5f6;
+}
+
+.button {
+  color: #fff;
+  font-size: 16pt;
+  font-weight: 900;
+  background-color: #ee8129;
+  margin: 0 20px;
+  padding: 15px;
+  border-radius: 10px;
+   box-shadow: 0 4px 2px #b3560b;
+  margin-bottom: 20px;
+}
+
+.list li, .button:hover{
+  cursor: pointer;
+}
+.list li:hover{
+  background-color: #1970c1;
+  color: #fff;
+}
+
+.button:hover{
+  
+  box-shadow: none;
+}
+  
+  /*last Block start*/
+  
+  .last_block{
+    z-index: 100;
+    left: -17px;
+    position: relative;
+      display: inline-block;
+     text-align: center;
+  width: 290px;
+  background-color: #fff;
+  border: 1px solid #e8eaec;
+  border-radius: 5px;
+  }
+  
+  .last_block .title_block{
+    background-color: #00b89a;
+    
+  }
+  
+  .last_block .list_block {
+    margin: 10px 0;
+  }
+  
+  .last_block .button{
+    background-color: #3070a8;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin: 25px 15px;
+    box-shadow: 0 3px #13426b;
+  }
+   .last_block .button:hover{
+  box-shadow: none;
+  }
+   .content_block{
+    max-width:  950px;
+    margin: 0 auto;
+  }
+ 
