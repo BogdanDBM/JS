@@ -188,7 +188,7 @@ h2{
    
  -  width: 140px;
     
-    background-image: url(http://bannera.com.ua/goit/../img/pic_lock.png);
+    background-image: url(http://bannera.com.ua/goit/img/pic_lock.png);
   background-repeat: no-repeat;
     border: 1px solid;
       }
@@ -432,7 +432,6 @@ background-color: #f5f5f6
   padding-bottom: 15px;
   border-radius: 5px;
   box-shadow: 0 0 10px #0874b2;
-  font-size: 0;
 }
 
 .header2 {
@@ -485,7 +484,7 @@ ul {
   color: #888c94;
   font-size: 13pt;
   padding-left: 20px; 
-  font-weight: 900;
+  font-wieght: 900;
    line-height: 30px;
    background-color: #edf5fd;
   text-align: left;
