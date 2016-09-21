@@ -1,0 +1,712 @@
+/*@import 'https://fonts.googleapis.com/css?family=Roboto:300,700';*/
+body{
+  
+  padding: 0;
+  margin: 0;
+  padding-top: 110px;
+/*   margin: 0 auto;*/
+  background-color: #e8e8e8;
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+
+header{
+ 
+  position: fixed;
+  text-align: center;
+  z-index: 9999; 
+  top: 0;
+ width:100%;
+min-height: 116px;
+  background-color: #eee;
+}
+header .logo {
+  background-color: #eee;
+  display: inline-block;  
+  padding-top: 45px;
+ padding-right: 180px;
+  }
+header .main_menu{
+ display:inline-block;
+ background-color: #eee;
+ margin-top: 0;
+}
+header .main_menu li{
+ 
+  display:inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #989898;
+  padding:0px 15px 30px;
+  border-bottom: 4px solid rgba(0,0,0,0);
+
+}
+
+header .main_menu li:hover{
+  color: #3070a8;
+  border-bottom: 4px solid #3070a8;
+}
+.cont{
+  display: inline-block;
+  text-align: center;
+  
+}
+
+/* End block Header (logo main_menu)  */
+@media (max-width: 1050px){
+  header .logo {
+    padding-right: 0;
+      text-align: center;
+  }
+header .main_menu{
+  margin-top: 20px;
+  }
+}
+
+/* End block Header resizer (logo main_menu)  */
+
+/* Start banner*/
+.banner{
+
+  background-image: url(../img/banner_bg.jpg);
+  -height: 485px;
+ min-height: 565px;
+   background-size: cover;
+    }
+h2{
+ - display: inline-block;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-family: 'Trebuchet MS';
+ -  height: 450px;
+   
+}
+.banner .banner_item_first{
+  text-align: center;
+ font-wieght: 100;
+  font-size: 90%;
+  line-height: 1em;
+  padding: 0;
+  margin: 0;
+  
+ }
+.banner .banner_item_second{
+  
+  font-wieght: 700;
+  margin-top: 0px;
+  line-height: 1.6em;
+  text-align: center;
+ font-size: 180%;
+  text-transform: uppercase;
+}
+
+  .banner_item_last{
+    font-size: 70%;
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+    text-shadow: 2px 2px 2px #000;
+  }
+  
+  .banner_content{
+    
+    padding-top: 140px;
+
+  }
+
+
+  
+  .btn {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-wieght: 900;
+    margin-top: 50px;
+   
+    border; 5px solid red;
+ -   padding: 20px;
+ - border: 2px solid;
+  }
+.btn span{
+  
+    border: 2px solid;
+    - padding: 20px 60px;
+   padding: 20px 5%;
+  }
+  
+  .btn span:hover{
+    cursor: pointer;
+    background-color: #ee8129;
+    border: 2px solid;
+   -  padding: 20px 60px;
+    box-shadow: 0px 0px 10px; 
+  }
+  
+  
+  /* End banner*/
+  
+  /*START SERVICES*/
+  .services{
+    text-align: center;
+     background-color: #dffbff;
+    border-bottom: 2px dotted; 
+  }
+  .services_block{
+  -  height: 560px;
+  
+  }
+  
+  .services_block_title h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: #41525c;
+    font-weight: 700;
+    padding: 70px;
+    font-size: 20px;
+  -  border-bottom: 1px solid;
+  }
+  .services_block_first, .services_block_seconds, .services_block_next{
+    margin-right: 60px;
+    display: inline-block;
+    max-width: 325px;
+    text-align: center;
+   - border: 2px solid red;
+  -  float: left;
+  }
+  
+/*  
+  .services_block_first_pic {
+    
+  - margin: 0 auto;
+ - padding: 0 100px;
+-    text-align: center;
+-    height: 139px;
+   
+ -  width: 140px;
+    
+    background-image: url(http://bannera.com.ua/goit/../img/pic_lock.png);
+  background-repeat: no-repeat;
+    border: 1px solid;
+      }
+  */
+  .services_block_first_title, .services_block_seconds_title, .services_block_next_title{
+    color: #3070a8;
+    font-size: 30px;
+    padding: 25px;
+    text-transform: uppercase;
+  }
+  
+  .services_block_first_content, .services_block_seconds_content, .services_block_next_content{
+    color: #999999;
+    line-height: 28px;
+    font-size: 15px;
+  }
+  
+  /*SECOND block Servise*/
+ 
+ 
+   /*END SECOND block Servise*/
+  
+  
+  
+  /*END SERVICES*/
+  
+  
+  
+  
+  
+  
+  
+/*
+@media (max-width: 1150px){
+  .banner{
+      margin-top: 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+     }
+.banner_content {
+    
+    padding-top: 120px;
+  }
+   h2 {
+   font-size: 
+     90%;
+  line-height: 1em;
+  }
+  
+  }
+@media (max-width: 690px){
+  
+  .banner_content {
+    padding-top: 95px;
+  color: red;
+  }
+  
+  }
+
+@media (max-width: 588px){
+  .banner{
+      margin-top: 90px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .banner_content {
+      padding-top: 70px;
+ 
+  }
+}
+  */
+  /*end banner resizes*/
+
+    
+    
+    /* -------------START MIDDLE BLOCK-------------*/
+    .middle_block{
+     - width: 100%;
+      padding-bottom: 30px;
+      
+          }
+    .middle_block_bg{
+      background-image: url(../img/middle_bg.jpg);
+    min-height: 577px;
+      background-size: cover;
+    }
+    
+ 
+    .middle_block_title{
+      max-width: 645px;
+     display: inline-block;
+    
+  
+        padding: 85px 0 0 10%;
+    }
+    .middle_block_title h2{
+    
+    text-transform: uppercase;
+      line-height: 46px;
+      color: #ee8129;
+    }
+    
+    .middle_block_title h3{
+   
+       
+      font-family: 'Open Sans';
+      font-style: italic;
+      font-size: 19px;
+      color: #fff;
+      font-weight: 400;
+    }
+    .middle_block_section li{
+      
+    color: #9d9d9d; 
+      line-height: 30px;
+      padding-bottom: 30px;
+      margin-left: 20px;
+      font-size: 14px;
+    }
+    .middle_block_section li:nth-child(2){
+      color: #3070a8;
+    }
+     /* -------------END MIDDLE BLOCK-------------*/
+    
+    
+    /*Star Price block*/
+  
+  .content_block{
+  - display: inline-block;
+    position: relative;
+    padding-top: 10px;
+  -margin-left:3px;
+    }
+ 
+.header2 h1 {
+    color: #41525c;
+  font-size: 28px;
+ text-align: center;
+}
+.first_block{
+  z-index: 100;
+  display: inline-block;
+  text-align: center;
+  width: 290px;
+  background-color: #fff;
+  border: 1px solid #e8eaec;
+  border-radius: 5px;
+}
+.title_block {
+  padding: 15px 0;
+  color: #fff;
+  background-color: #2bc2d5;
+  margin-bottom: 20px;
+}
+.name_block {
+  color: #3f4042;
+ margin-bottom: 20px;
+}
+.title_block, .name_block {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.list_block{
+  padding: 0 15px;;
+  margin: 15px 0;
+}
+
+.price_first{
+  color: #35495a;
+ display: inline-block;
+  position: relative;
+  left: 10px;
+text-aligne: ;  
+font-size: 59px;
+  font-weight: 900;
+}
+
+.price_first:before{
+  position: absolute;
+  left: -.5em;
+  top: 10px;
+  
+content: "$";
+  font-size: 16pt;
+}
+.price_first:after{
+  position: relative;
+  bottom: -0.3em;
+  left: -.3em ;
+  content:"Monthly";
+  font-size: 14px;
+}
+.first_block_list li{
+  overflow: hidden;
+ color: #888c94;
+  text-align: left;
+  list-style-type: none;
+ padding: 10px;
+  background-color: #edf5fd;
+  margin-bottom: 2px;
+  font-size: 13px;
+  
+}
+
+.first_block_list li:before{
+content: url(../img/2e948ab76453.png);
+  padding-left: 1.1em;
+  padding-right: 1.2em;
+}
+.first_block_list li:nth-child(even){
+background-color: #f5f5f6
+}
+
+.first_block .button{
+  font-size: 14px;
+  text-transform: uppercase;
+  background-color: #3070a8;
+  box-shadow: 0px 3px #13426b;
+  margin: 25px 15px;
+}
+
+
+
+
+
+/*End First blick */
+
+/*style for block Price*/
+.Pricing {
+  z-index: 1000;
+ display: inline-block;
+ position: relative;
+ top: 0;
+  left: -10px;
+  text-align: center;
+-  margin: 50px auto;
+  background-color: #ee8129;
+  width: 326px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #0874b2;
+  font-size: 0;
+}
+
+.header2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 15px;
+  }
+.Price_menu {
+  background-color: white;
+  border-radius: 5px;
+  margin: 0 10px;
+  padding-bottom: 15px;
+}
+.name {
+  padding-top: 20px; 
+  font-weight: 900;
+  font-size: 24px;
+  color: #3f4042;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  }
+.price{
+  -padding: 0 auto;
+  position: relative;
+  font-size: 72px;
+  font-weight: 900;
+ }
+.price:before{
+ content: "$";
+  position: relative;
+  bottom: 32px;
+ - margin-left: 10px;
+  font-size: 26px;
+ }
+.price:after{
+  position: relative; 
+  top: 10px;
+  left: -5px;
+  -margin: 0;
+  content: "Monthly";
+  font-size: 18px;
+}
+ul {
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
+.list li{
+  color: #888c94;
+  font-size: 13pt;
+  padding-left: 20px; 
+  font-weight: 900;
+   line-height: 30px;
+   background-color: #edf5fd;
+  text-align: left;
+  list-style-type: none;
+  margin-bottom:4px;
+}
+  .list li:before{
+    content: url(../img/2e948ab76453.png);
+    padding-right: 20px;
+  }
+.list li:nth-child(even){
+  background-color: #f5f5f6;
+}
+
+.button {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 900;
+  background-color: #ee8129;
+  margin: 0 20px;
+  padding: 15px;
+  border-radius: 10px;
+   box-shadow: 0 4px 2px #b3560b;
+  margin-bottom: 20px;
+}
+
+.list li, .button:hover{
+  cursor: pointer;
+}
+.list li:hover{
+  background-color: #1970c1;
+  color: #fff;
+}
+
+.button:hover{
+  
+  box-shadow: none;
+}
+  
+  /*last Block start*/
+  
+  .last_block{
+    z-index: 100;
+    left: -17px;
+    position: relative;
+      display: inline-block;
+     text-align: center;
+     width: 290px;
+  background-color: #fff;
+  border: 1px solid #e8eaec;
+  border-radius: 5px;
+  }
+  
+  .last_block .title_block{
+    background-color: #00b89a;
+    
+  }
+  
+ 
+  
+  .last_block .button{
+    background-color: #3070a8;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 25px 15px;
+    box-shadow: 0 3px #13426b;
+  }
+   .last_block .button:hover{
+  box-shadow: none;
+  }
+   .content_block{
+-  max-width:  950px;
+   text-align: center;
+-margin:0 auto;
+     }
+  /*End price block*/
+  /*Commit block style*/
+  .comment{
+    text-align: center;
+    margin-top:20px;
+     }
+  .comment .bg{
+ -width: 1100px;
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+padding-bottom: 50px;
+}
+.title_comment{
+ 
+  padding-top: 58px;
+
+  }
+
+.title_comment h2{
+
+  text-transform: uppercase;
+  color: #3170a8;
+  font-size: 50px;
+ margin: 0;
+}
+.title_comment h2 span{
+  color: #ee8129;
+}
+
+.profile_comment {
+   margin-left: 20px;
+  display: inline-block;
+  height: 160px;
+ margin-bottom: 20px;
+ 
+    }
+.profile_pic{
+display: inline-block;
+  
+  margin: 0;
+  padding: 0;
+background-image: url(../img/girl.jpg);      background-color: #c7b39b;
+   width: 100px;
+  height: 100px;
+
+   background-size: cover;
+}
+
+.comment_block {
+  position: relative;
+  padding: 0px 0;
+  margin-left: 20px;
+ display: inline-block;
+ 
+  width: 400px;
+  height: 100px;
+  
+  background-color: #fff;
+}
+.comment_block:before{
+  position: absolute;
+  left: -20px;
+  top: 35px;
+  content: "";
+  border: 10px solid transparent; /* Прозрачные границы */
+  border-right: 10px solid #fff; /* Добавляем треугольник */
+}
+
+
+.comment_block .name{
+height: 35px;
+text-align: left;
+  color: #3070a8;
+  font-size: 12px;
+  font-style: italic;
+   padding: 0 10px;
+ 
+ border-bottom: 2px dotted #666666; 
+}
+
+.comment_block .name .name_id {
+  display: inline-block;
+ padding-top: 10px;
+
+  float: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 200px;
+  white-space: nowrap;
+}
+  
+  .comment_block .name .name_id:before{
+    content: "-";
+  }
+.comment_block .name .status{
+padding-top: 10px;
+   display: inline-block;
+  float: right;
+  
+}
+p{
+  padding: 0;
+  margin: 0;
+}
+
+.description{
+  
+  background-color: #fff;
+ position: absolute;
+ text-align: left;
+  -display: inline-block;
+color: #666666;
+  margin: 0;
+ padding: 10px;
+ - overflow: hidden;
+      }
+
+  
+  
+  /*  second block*/
+  .profile_comment_second{
+   display:inline-block;
+    
+    margin-left: 20px;
+height: 160px;
+    position: relative;
+  }
+  .profile_comment_second .profile_pic{
+     background-image: url(../img/man.jpg);    
+  }
+  
+  
+  .profile_comment_next{
+     margin-left: 20px;
+  - float: left;
+    display:inline-block;
+   position: relative;
+  }
+  
+  
+  .content{
+   max-width: 1090px;
+    margin: 0px auto;;
+  }
+  .comment .title_comment {
+    text-align: center;
+  }
+
+  /*End  */
