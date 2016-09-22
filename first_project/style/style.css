@@ -176,7 +176,7 @@ h2{
    
  -  width: 140px;
     
-    background-image: url(http://bannera.com.ua/goit/img/pic_lock.png);
+    background-image: url(../img/pic_lock.png);
   background-repeat: no-repeat;
     border: 1px solid;
       }
@@ -632,5 +632,99 @@ height: 160px;
   .comment .title_comment {
     text-align: center;
   }
+
+    /*START CONTACT BLOCK */
+    .contact_block{
+      -padding-top: 30px;
+    }
+    .contact_bg{
+     - background-color: #b4f4ff;
+      width: 1070px;
+      margin: 0 auto;
+       height: 320px;
+    }
+
+    
+    .conntact{
+           font-family: 'Open Sans';
+      font-size: 14px;
+      font-weight: 700;
+      position: relative;
+     padding-left: 60px;
+      padding-top: 20px;
+      line-height: 30px;
+      color: #666666;
+    padding-bottom: 10px;
+    }
+    
+      .conntact_tell, .conntact_mail, .conntact_zipcode{  
+        line-height: 25px;
+        padding-bottom: 20px;
+         }
+    .conntact_mail{
+      line-height: 15px;
+    }
+    .conntact_name:before{
+      position: absolute;
+      content: url(../img/place.png);
+      left: 5px;
+    }
+    
+      .conntact_tell:before{
+      position: absolute;
+        content: url(../img/tell.png);
+    left: 5px;
+    }
+      .conntact_mail:before{
+        position: absolute;
+      content: url(../img/mail.png);
+   left: 3px;
+    }
+    
+    /*Social*/
+    .conntact_social{
+      padding-left: 5px;
+    }
+    .fb, .twiter, .linkedin{
+      padding-right:25px;
+    }
+    
+    .map{
+      background-image: url(../img/map.jpg);
+      position: absolute;
+      width: 50%;
+      right: 0;
+     height: 320px;
+      background-size: cover;
+    }
+      /*END CONTACT BLOCK */
+      
+
+
+/* FOOTER*/
+  footer{
+        background-color: #3070a8;
+      
+      text-align: center;
+      }    
+      
+      .footer_wraper{
+        padding: 20px 0;
+        color: #fff;
+      }
+      .footer_company span{
+        font-weight: 700;
+      }
+      .footer_design a {
+        color: #000;
+        font-weight: 700;
+        text-decoration: none;
+      }
+      .footer_design a:hover{
+        text-decoration: underline
+ ;
+      }
+
+
 
   /*End  */
